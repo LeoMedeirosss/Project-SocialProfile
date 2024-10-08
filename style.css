@@ -33,7 +33,7 @@ img{
     align-content: center;
     flex-direction: column;
     margin-top: 200px;
-    height: 750px;
+    height: 725px;
     width: 450px;
     background-color: #1f1f1f;
     border-radius: 12px;
@@ -69,9 +69,17 @@ h3{
     display: flex;
     justify-content: center;
     align-items: center;
+    font-size: 17px;
+    transition: 0.7s;
 }
 
-
+.skills:hover{
+    background-color: #bfe544;
+    color: #7f7f7f;
+    transform: scale(1.05);
+    border: 1px solid #141414;
+    
+}
 
 .attribution { 
     font-size: 12px; text-align: center;
